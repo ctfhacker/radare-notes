@@ -34,8 +34,14 @@ d 0x8048a97 push str.STOP__To_get_past_me_you_must_guess_the_number_I_am_thinkin
 Vpp
 VV - Ascii art conditional
 ```
-### Arm support:
+### Arch/CPU support:
 ```
 e asm.arch=arm.cs
-aa
+e asm.cpu=mips.cs
+e asm.arch=?
+e asm.os=?
 ```
+### ROP Search:
+```
+/R/ pop#pop
+/R/ pop#pop#pop

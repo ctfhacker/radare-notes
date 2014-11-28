@@ -1,8 +1,7 @@
 # radare2 notes
-## String xref:
-
+### String xref:
 ```
-aa
+*aa*
 s str.<TAB>
 [0x08048a97]> s str.STOP__To_get_past_me_you_must_guess_the_number_I_am_thinking_of._n_nYou_may_guess_three_times._n_ 
 [0x08049026]> axt

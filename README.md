@@ -1,5 +1,7 @@
 # radare2 notes
 ## String xref:
+
+```
 aa
 s str.<TAB>
 [0x08048a97]> s str.STOP__To_get_past_me_you_must_guess_the_number_I_am_thinking_of._n_nYou_may_guess_three_times._n_ 
@@ -27,4 +29,4 @@ d 0x8048a97 push str.STOP__To_get_past_me_you_must_guess_the_number_I_am_thinkin
 |          0x08048aa2    83c410       add esp, 0x10
 |          0x08048aa5    c745dc00000. mov dword [ebp - 0x24], 0
 \          0x08048aac    eb72         jmp fcn.08048b20
-
+```
